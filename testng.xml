@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" name="C:/Users/Deadpool/IdeaProjects/Api_Test_cucumber">
+    <classes>
+        <class name="Date.Current_Date">
+            <methods><include name="current_Date7"/>
+            </methods>
+        </class>
+        <class name="TimeMethod.Prayer_TimeMethod">
+            <methods><include name="Time_Method"/>
+            </methods>
+        </class>
+        <class name="TimeStamp.Time_Stamp">
+            <methods><include name="time_stamp"/>
+            </methods>
+        </class>
+        <class name="Time.Current_Time">
+            <methods>
+                <include name="current_Time8"/>
+            </methods>
+        </class>
+        <class name="Times.Calendar_ByCity">
+            <methods>
+                <include name="calendar_city3"/>
+            </methods>
+        </class>
+        <class name="Times.Hijri_Calendar">
+            <methods>
+                <include name="hijri_calendar4"/>
+            </methods>
+        </class>
+        <class name="Times.HijriCalendarByAdress">
+            <methods>
+                <include name="hijri_calendarAdress5"/>
+            </methods>
+        </class>
+        <class name="Times.HijriCalendarByCity">
+            <methods>
+                <include name="hijri_calendarByCity6"/>
+            </methods>
+        </class>
+        <class name="Times.Timescalendar">
+            <methods>
+                <include name="Time_calendar1"/>
+            </methods>
+        </class>
+        <class name="Times.calendar_ByAdress">
+            <methods>
+                <include name="calendar_Adress2"/>
+            </methods>
+        </class>
+        <class name="Timing.TimingByCity">
+            <methods>
+                <include name="time_BC"/>
+            </methods>
+        </class>
+        <class name="Timing.Timingg">
+            <methods>
+                <include name="timing"/>
+            </methods>
+        </class>
+        <class name="Timing.TimingsBy_Adress">
+            <methods>
+                <include name="time_BA"/>
+            </methods>
+        </class>
+    </classes>
+</test>
+</suite>
